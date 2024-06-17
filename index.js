@@ -1,21 +1,15 @@
 // JavaScript Coding Challenge
 
 // 1. Create a function named 'createPerson' that returns an object named 'person' using object literal syntax. The object should have properties 'name' and 'age', with your name and age as the values.
-const createPerson = { 
-name: 'George Clark',
-age: 25,
-};
-console.log(createPerson.name);
-console.log(createPerson.age);
-  
+function createPerson() {
+    const person = {
+      name: "George Clark",
+      age: 25
+    }
+    return person;
+  }
 
 // 2. Create a function 'logPersonProperties' that takes a 'person' object as an argument and returns the 'name' and 'age' properties of the 'person' object using dot notation.
-const logPersonProperties = person();
-person.name = 'George Clark';
-person.age = 25;
-
-console.log(logPersonProperties.person);
-
 
 // 3. Create a function 'modifyAge' that takes a 'person' object and a new age as arguments, modifies the 'age' property of the 'person' object to the new age, and returns the updated object.
 
